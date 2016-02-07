@@ -30,7 +30,7 @@
           </div>
         </nav>
       </div>
-        <h1>Добро пожаловать в магазин готовых макетов</h1>
+        <h1>Добро пожаловать в магазин готовых макетов</h1> <!-- Всё-таки в общем контейнере лежит, чтоб не разъезжаться по всей ширине -->
       </header>
       <main class="container">
         <form action="https://echo.htmlacademy.ru" method="post">
@@ -49,7 +49,7 @@
         <div class="main-catalog">
           <div class="main-catalog-left">
             <form class="constructor-form" action="https://echo.htmlacademy.ru" method="post">
-              СТОИМОСТЬ ???
+              СТОИМОСТЬ ??? <!-- Пусть пока будет legend + input[type=range] + div > (span + input[type=text] + span + input[type=text])  -->
               <legend>Сетка:</legend>
               <label>
                 <input type="radio" name="net" value="adaption" checked> Адаптивная
@@ -93,12 +93,12 @@
                   <a href="#">По функционалу</a>
                 </li>
               </ul>
-            </div>
-            <article class="catalog-card">
+            </div> <!-- Забыла про 2 стрелочки, которые можно сделать активными элементами (ссылки) или просто декоративными -->
+            <article class="catalog-card"> <!-- Все карточки в один свой большой контейнер -->
               <img class="card-img-top" src="img/points.jpg">
               <img class="card-img-bottom" src="img/poster1.jpg">
               <div class="card-info">
-                <a href="#">Aviator</a>
+                <a href="#">Aviator</a> <!-- a>span -->
                 <p>Одностраничный макет с авторским дизайном</p>
                 <a class="btn price" href="#">8000 Р.</a>
               </div>
