@@ -1,7 +1,7 @@
 body {
   font-family: Roboto, sans-serif;
   font-size: 16px;
-  line-height: 1em;
+  line-height: 1em; /* 1 (без em) , чтобы обнулить, 1.2 - 1.3, чтобы задать примерно нужную высоту строк */
   color: #000000;
   font-weight: medium;
 }
